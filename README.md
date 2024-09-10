@@ -1,5 +1,5 @@
-# Flight Controller Lite "Digital Tripper"
-KiCad PCB repository for "Digital Tripper": a board that purely gathers data on solid-fuel excursion flights (the first of which is planned for 2024-11), and a precursor for future flight control boards that will incorporate actuation or interact with other boards. The data it gathers will be used for verification of flight control algorithms, flight vehicle designs, building a base for future Arduino flight control software, and verifying our sensor choices. Digital Tripper is a square 65mm on edge to fit transversely in a 4-inch-diameter model rocket.
+# Flight Computer Lite "Digital Tripper"
+KiCad PCB repository for "Digital Tripper": a board that purely gathers data on solid-fuel excursion flights (the first of which is planned for 2024-11), and a precursor for future flight control boards that will incorporate actuation or interact with other boards. The data it gathers will be used for verification of flight control algorithms, flight vehicle designs, building a base for future Arduino flight control software, and verifying our electronic component choices. Digital Tripper is a square 65mm on edge to fit transversely in a 4-inch-diameter model rocket.
 
 Ingredients:
 * The "brain", a Raspberry Pi Silicon RP2040 (will be replaced with an RP2350 as soon as they are available)  
