@@ -2342,6 +2342,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Memory_Flash:W25Q32JVZP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3343,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "264f4ba3-6e99-4dd4-a0eb-97539f28eed3")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 59.3441 73.66 0)
 			(effects
 				(font
@@ -3427,7 +3509,7 @@
 		(instances
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3443,7 +3525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4832f2a8-3b59-40bc-b845-78c34c760ee8")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 114.3 60.9599 0)
 			(effects
 				(font
@@ -3515,7 +3597,71 @@
 		(instances
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
-					(reference "U1")
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 176.53 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed83468-5db8-49d8-9d67-a7fb65d75e6f")
+		(property "Reference" "H2"
+			(at 45.72 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 43.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3531,7 +3677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b9d042-2336-49db-8ed1-b41b6c26bd77")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 101.6 120.6499 0)
 			(effects
 				(font
@@ -3606,7 +3752,71 @@
 		(instances
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
-					(reference "U5")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 181.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff661eb-afa1-41b6-a90f-c537f89c3e5e")
+		(property "Reference" "H3"
+			(at 45.72 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 43.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3677,6 +3887,70 @@
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 186.69 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d831c04-6110-4bf5-b1ff-634e2f9e6652")
+		(property "Reference" "H4"
+			(at 45.72 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3796,6 +4070,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6b18d37-e487-43fd-8af2-8ba77f73e227")
+		(property "Reference" "H1"
+			(at 45.72 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 45.72 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 147.32 123.19 0)
 		(unit 1)
@@ -3805,7 +4143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a362bd-7d14-4964-b755-b2e261848f20")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 149.5141 167.64 0)
 			(effects
 				(font
@@ -4024,7 +4362,7 @@
 		(instances
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4135,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc4b2607-7c93-42b9-a45c-26b8305d78c8")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 172.72 60.9599 0)
 			(effects
 				(font
@@ -4207,7 +4545,7 @@
 		(instances
 			(project ""
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
