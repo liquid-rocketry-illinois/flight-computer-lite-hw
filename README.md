@@ -7,8 +7,9 @@ Ingredients:
     * TDK InvenSense ICM-42688-P high-accuracy 6DoF IMU
     * Bosch BMI088 6DoF IMU for backup and a higher acceleration limit (24 g)
     * STmicroelectronics LIS3MDL 3-axis magnetometer
-    * TE Connectivity MS5611 barometer for altitude
-    * Bosch BME680 for ambient temperature, humidity and air quality
+    * TE Connectivity MS5611 barometer/altimeter
+    * Texas Instruments HDC2080 for ambient temperature and humidity
+    * u-blox SAM-M10Q GNSS receiver with integrated antenna
 * A push-push microSD card slot for vibration-resistant datalogging
 * A piezoelectric buzzer to provide audial status information before launch and after landing
 * a USB-C port for programming and serial communication with the RP2040
