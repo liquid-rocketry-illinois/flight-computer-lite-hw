@@ -5,10 +5,10 @@ Ingredients:
 * The "brain", a Raspberry Pi Silicon RP2040
 * Various digital sensors
     * TDK InvenSense ICM-42688-P high-accuracy 6DoF IMU
-    * Bosch BMI088 6DoF IMU for backup and a higher acceleration limit (24 g)
+    * Bosch BMI088 6DoF IMU for backup and a higher (24 g) acceleration limit
     * STmicroelectronics LIS3MDL 3-axis magnetometer
     * TE Connectivity MS5611 barometer/altimeter
-    * Texas Instruments HDC2080 for ambient temperature and humidity
+    * Sensirion SHT40 for ambient temperature and humidity
     * u-blox SAM-M10Q GNSS receiver with integrated antenna
 * A push-push microSD card slot for vibration-resistant datalogging
 * A piezoelectric buzzer to provide audial status information before launch and after landing
