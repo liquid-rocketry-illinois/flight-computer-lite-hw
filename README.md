@@ -14,4 +14,5 @@ Ingredients:
 * A piezoelectric buzzer to provide audial status information before launch and after landing
 * a USB-C port for programming and serial communication with the RP2040
 * A JST-PH battery connector
+* Power monitor IC to characterize necessary battery size
 * A 3.3V-output switching DC-DC converter and a 1.8V-output high-PSRR linear regulator
