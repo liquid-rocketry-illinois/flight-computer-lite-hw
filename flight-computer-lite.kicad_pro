@@ -386,6 +386,14 @@
     [
       "68fb1519-f2e0-49f5-8b7c-4cc7366600ef",
       "Root"
+    ],
+    [
+      "da8d9a6b-8135-4892-9fbb-e226d381d2be",
+      "I2C Bus 1"
+    ],
+    [
+      "b008d132-627e-4909-9b55-dae551d9f285",
+      "I2C Bus 2"
     ]
   ],
   "text_variables": {}
