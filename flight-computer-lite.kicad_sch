@@ -5243,7 +5243,7 @@
 			(uuid "337bff4e-d7f4-4d03-93e3-b6319db0e9e2")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR030")
 					(unit 1)
@@ -5311,7 +5311,7 @@
 			(uuid "bb8ef9c3-b87b-426d-adfb-6098e3851fa2")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "J3")
 					(unit 1)
@@ -5511,7 +5511,7 @@
 			(uuid "0f896b12-2334-4669-960a-160951dd5346")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "J4")
 					(unit 1)
@@ -5734,7 +5734,7 @@
 			(uuid "99afd405-6e03-4bd0-a207-5093ed3ccbba")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "U2")
 					(unit 1)
@@ -5943,7 +5943,7 @@
 			(uuid "01c37511-0cfc-44ea-81ce-17331e862b83")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "Q1")
 					(unit 1)
@@ -6010,7 +6010,7 @@
 			(uuid "813b241a-447c-4617-baae-ce384cfeadbd")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "R4")
 					(unit 1)
@@ -6211,7 +6211,7 @@
 			(uuid "3289dd35-a3dc-436c-8d72-b535b6da7017")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "BZ1")
 					(unit 1)
@@ -6388,7 +6388,7 @@
 			(uuid "4d73f8f9-915e-4de6-809c-c405160cceb4")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "J1")
 					(unit 1)
@@ -6520,7 +6520,7 @@
 			(uuid "2a309973-1a56-4446-88d3-8e5cb2eafbec")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR05")
 					(unit 1)
@@ -6607,7 +6607,7 @@
 			(uuid "a121608a-8fb2-44bc-b5c7-f691d40071eb")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "D1")
 					(unit 1)
@@ -6671,7 +6671,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "H1")
 					(unit 1)
@@ -6740,7 +6740,7 @@
 			(uuid "081985ac-6526-4fe2-887a-ae532c01518a")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "R11")
 					(unit 1)
@@ -6975,7 +6975,7 @@
 			(uuid "d602e9a0-b829-4e2f-8ea8-3f8398d1f160")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "U1")
 					(unit 1)
@@ -7070,7 +7070,7 @@
 			(uuid "f030d86f-046c-4eba-8dc1-e2103710c95d")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "J2")
 					(unit 1)
@@ -7136,7 +7136,7 @@
 			(uuid "445da87e-96a5-47b7-9127-6ad0ed3807a3")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR019")
 					(unit 1)
@@ -7202,7 +7202,7 @@
 			(uuid "8c3bdee9-16a7-433f-93a2-3bcfca5cc250")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR04")
 					(unit 1)
@@ -7268,7 +7268,7 @@
 			(uuid "a843ac3f-c00c-40df-a1ae-5ee706a07710")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR029")
 					(unit 1)
@@ -7334,7 +7334,7 @@
 			(uuid "e1596eb3-83b7-484b-8bfe-08e625145e7e")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR028")
 					(unit 1)
@@ -7401,7 +7401,7 @@
 			(uuid "bfe7aebc-324f-4580-9d83-defb86dc8288")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "R3")
 					(unit 1)
@@ -7471,7 +7471,7 @@
 			(uuid "e620d1f7-eeb3-440b-9533-f26f69a0858d")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "R1")
 					(unit 1)
@@ -7537,7 +7537,7 @@
 			(uuid "c57ddca4-969f-4b5c-bfcd-88c2b40909a4")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "#PWR020")
 					(unit 1)
@@ -7666,6 +7666,44 @@
 			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 21.59)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9638264-4233-4dd7-8ba7-e3ef28adbc94")
+		(property "Sheetname" "PSU"
+			(at 228.6 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 228.6 25.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(page "4")
 				)
 			)
 		)

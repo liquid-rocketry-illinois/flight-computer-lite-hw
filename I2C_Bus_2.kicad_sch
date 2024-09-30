@@ -2629,7 +2629,7 @@
 			(uuid "9141d5d7-435f-4ac1-8d03-e4b3536f26db")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/b008d132-627e-4909-9b55-dae551d9f285"
 					(reference "#PWR011")
 					(unit 1)
@@ -3814,7 +3814,7 @@
 			(uuid "210c819f-e2b1-4ad5-bb5c-706510693cc9")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/b008d132-627e-4909-9b55-dae551d9f285"
 					(reference "#PWR023")
 					(unit 1)
@@ -3947,7 +3947,7 @@
 			(uuid "870bba30-f950-4a79-9ecb-45ce80b145cb")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/b008d132-627e-4909-9b55-dae551d9f285"
 					(reference "#PWR012")
 					(unit 1)
