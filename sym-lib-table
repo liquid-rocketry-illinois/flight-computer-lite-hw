@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "LRI_partlib")(type "KiCad")(uri "${KIPRJMOD}/lib/LRI_partlib.kicad_sym")(options "")(descr ""))
   (lib (name "TPS631000")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS631000.kicad_sym")(options "")(descr ""))
+  (lib (name "INA232")(type "KiCad")(uri "${KIPRJMOD}/lib/INA232.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/lib/LM66200.kicad_sym")(options "")(descr ""))
+  (lib (name "SiT1602BI")(type "KiCad")(uri "${KIPRJMOD}/lib/SiT1602BI-22-33E-12.000000E.kicad_sym")(options "")(descr ""))
 )

@@ -3246,6 +3246,213 @@
 				)
 			)
 		)
+		(symbol "SiT1602BI:SiT1602BI-22-33E-12.000000E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SiT1602BI-22-33E-12.000000E"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SIT1602BI2233E12000000G"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/SiTime%20PDFs/SIT1602B.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "12 MHz XO (Standard) LVCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SiTime"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SiT1602BI-22-33E-12.000000E"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SiT1602BI-22-33E-12.000000E_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4017,10 +4224,22 @@
 		(uuid "22692b75-1ec5-4f0d-9fdd-61053db9bf6f")
 	)
 	(junction
+		(at 168.91 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "227cf3d2-b678-4595-ada3-37c78815e701")
+	)
+	(junction
 		(at 60.96 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d012bc7-6b45-4ec7-af84-23cabf358e12")
+	)
+	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74912425-452d-4c31-a246-d50dd66dacb0")
 	)
 	(junction
 		(at 35.56 34.29)
@@ -4033,6 +4252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe95986-fb77-46ff-8a9e-4ed865c1e512")
+	)
+	(junction
+		(at 163.83 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb4e365b-392e-49dd-aec0-350fa9a4edda")
 	)
 	(junction
 		(at 60.96 105.41)
@@ -4049,12 +4274,26 @@
 		(uuid "652cc7a2-9a93-417a-9324-84380974e51c")
 	)
 	(no_connect
+		(at 158.75 128.27)
+		(uuid "a72e54ff-d860-400c-bcf3-a0fbab61a203")
+	)
+	(no_connect
 		(at 36.83 129.54)
 		(uuid "afb1a9c2-f216-4439-b7c2-4e3b4d79eabd")
 	)
 	(no_connect
 		(at 45.72 62.23)
 		(uuid "c04b9eb5-702d-4120-86af-a2b8243590c4")
+	)
+	(wire
+		(pts
+			(xy 158.75 40.64) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c30880-5caf-4f16-b880-5d04cbe5b9bf")
 	)
 	(wire
 		(pts
@@ -4248,6 +4487,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 39.37) (xy 168.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a7b960-9f97-4bed-b08c-65edce63b055")
+	)
+	(wire
+		(pts
+			(xy 168.91 43.18) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fee323-886c-4884-bc4b-63ab83b887f4")
+	)
+	(wire
+		(pts
 			(xy 147.32 105.41) (xy 158.75 105.41)
 		)
 		(stroke
@@ -4368,6 +4627,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 48.26) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783cc5b3-10cd-4a6e-b492-350e7f969e32")
+	)
+	(wire
+		(pts
 			(xy 59.69 96.52) (xy 96.52 96.52)
 		)
 		(stroke
@@ -4448,6 +4717,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 45.72) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c65b58-88cd-42ce-b60e-46cb5715d93c")
+	)
+	(wire
+		(pts
 			(xy 35.56 34.29) (xy 35.56 41.91)
 		)
 		(stroke
@@ -4488,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 39.37) (xy 168.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd6e579-cdf0-4ced-bb55-a3c9af5147d2")
+	)
+	(wire
+		(pts
 			(xy 72.39 181.61) (xy 72.39 182.88)
 		)
 		(stroke
@@ -4498,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 43.18) (xy 198.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f8f7cd-aaed-48a3-bc9a-1efa30387368")
+	)
+	(wire
+		(pts
 			(xy 96.52 96.52) (xy 96.52 102.87)
 		)
 		(stroke
@@ -4505,6 +4804,16 @@
 			(type default)
 		)
 		(uuid "a515df1c-4d9e-4847-beec-1c2dbc88b0aa")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 198.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cf0224-5081-4649-840e-a8576ecec61e")
 	)
 	(wire
 		(pts
@@ -4525,6 +4834,16 @@
 			(type default)
 		)
 		(uuid "ab756c0f-9d15-4efa-8141-ef27609c813c")
+	)
+	(wire
+		(pts
+			(xy 168.91 43.18) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff92612-f89f-4aaf-aae8-1f281a6a5f4f")
 	)
 	(wire
 		(pts
@@ -4555,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "b69c640f-10c9-4180-bec3-ee4c2dca0048")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92f49b6-3de3-4157-a4f3-50a78d1823d8")
 	)
 	(wire
 		(pts
@@ -4598,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 49.53) (xy 158.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06ee426-8ca0-4276-a8dc-cb052d477a16")
+	)
+	(wire
+		(pts
 			(xy 184.15 156.21) (xy 184.15 157.48)
 		)
 		(stroke
@@ -4605,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "c18dddce-614b-47c1-8037-72d449a2f811")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72aa78b-1ef6-4bba-a604-7dd9d84870f7")
 	)
 	(wire
 		(pts
@@ -4625,6 +4974,26 @@
 			(type default)
 		)
 		(uuid "caf29d4e-558e-4182-a089-6c899724db69")
+	)
+	(wire
+		(pts
+			(xy 158.75 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccccb63c-b9ed-437b-9359-bcd5ed8d885d")
+	)
+	(wire
+		(pts
+			(xy 171.45 45.72) (xy 168.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3f3492-64da-4e9d-93db-aa1b60896d65")
 	)
 	(wire
 		(pts
@@ -4708,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 39.37) (xy 163.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e264e60d-efc6-46d6-93ca-242bc88ef763")
+	)
+	(wire
+		(pts
 			(xy 59.69 111.76) (xy 60.96 111.76)
 		)
 		(stroke
@@ -4725,6 +5104,16 @@
 			(type default)
 		)
 		(uuid "ec36e81b-de9a-4e81-9c4c-aaba0d91d387")
+	)
+	(wire
+		(pts
+			(xy 196.85 45.72) (xy 198.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24fbc1c-52b1-4bff-a2db-32164298c055")
 	)
 	(wire
 		(pts
@@ -4965,6 +5354,17 @@
 		)
 		(uuid "8d04e9a9-b670-46a8-a542-ba03380794ab")
 	)
+	(label "XIN"
+		(at 198.12 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d571b56-ea9e-4f97-82c2-3ef10b3169d2")
+	)
 	(label "CPU_USB_D+"
 		(at 144.78 80.01 0)
 		(fields_autoplaced yes)
@@ -5019,6 +5419,17 @@
 			(justify left bottom)
 		)
 		(uuid "d6dd0ee0-3c0e-4716-85c1-3ef726c16dd4")
+	)
+	(label "XIN"
+		(at 152.4 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d766e8c1-71ab-4bff-a8a6-48f75c098d21")
 	)
 	(label "QSPI_SD0"
 		(at 147.32 95.25 0)
@@ -6464,6 +6875,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 163.83 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9608c3d6-429c-45b4-836c-a54e56b990e6")
+		(property "Reference" "#PWR033"
+			(at 163.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a83ea33-bb75-494d-a970-66579a9ae8cd")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 83.82 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6749,6 +7226,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 158.75 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0470040-47b8-4b13-bda5-07a43708f32b")
+		(property "Reference" "C21"
+			(at 162.56 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 162.56 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.7152 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa57fe1a-727e-45e1-a1c9-61c4bdfc312c")
+		)
+		(pin "2"
+			(uuid "97092bad-0d12-45d0-a0ba-3045708943e8")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 184.15 110.49 0)
 		(unit 1)
@@ -6984,6 +7531,152 @@
 		)
 	)
 	(symbol
+		(lib_id "SiT1602BI:SiT1602BI-22-33E-12.000000E")
+		(at 171.45 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8acf721-1f60-47c4-b223-ee6132e7255a")
+		(property "Reference" "Y1"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiT1602BI-22-33E-12.000000E"
+			(at 184.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LRI_partlib:SIT1602BI2233E12000000G"
+			(at 193.04 138.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/SiTime%20PDFs/SIT1602B.pdf"
+			(at 193.04 238.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "12 MHz XO (Standard) LVCMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 193.04 438.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SiTime"
+			(at 193.04 538.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SiT1602BI-22-33E-12.000000E"
+			(at 193.04 638.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 193.04 738.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA"
+			(at 193.04 838.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 193.04 938.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 193.04 1038.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50f88644-a212-4a34-beb0-11e9af3edb6a")
+		)
+		(pin "4"
+			(uuid "254a4a20-fc35-40ce-86da-b9dc3f0be88d")
+		)
+		(pin "1"
+			(uuid "525da5c1-19fd-4b1a-b8da-c7a107a98093")
+		)
+		(pin "3"
+			(uuid "c49b9679-cf5f-462b-89c4-7bbece202056")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
 		(at 256.54 142.24 0)
 		(unit 1)
@@ -7073,6 +7766,72 @@
 			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d195712b-f793-4d8b-97ed-f6f2b5f04525")
+		(property "Reference" "#PWR042"
+			(at 163.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93eb7143-2e44-4ecc-8824-5d3a9bc92180")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
