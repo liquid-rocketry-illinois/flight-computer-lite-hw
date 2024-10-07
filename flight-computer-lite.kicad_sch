@@ -5812,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 213.36 102.87)
+			(xy 213.36 106.68) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6082,7 +6082,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 102.87) (xy 213.36 102.87)
+			(xy 199.39 105.41) (xy 213.36 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6272,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 115.57)
+			(xy 213.36 116.84) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6911,7 +6911,7 @@
 	)
 	(text "USR button"
 		(exclude_from_sim no)
-		(at 223.012 104.14 0)
+		(at 223.012 106.68 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -7193,7 +7193,7 @@
 		(uuid "bb56adb3-e513-4f4a-9efe-4f81cadb3cd6")
 	)
 	(label "USR"
-		(at 204.47 102.87 0)
+		(at 205.74 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11298,7 +11298,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 213.36 109.22 270)
+		(at 213.36 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11307,15 +11307,6 @@
 		(fields_autoplaced yes)
 		(uuid "dbba5aa8-7fa9-4340-a244-acd61d681ea2")
 		(property "Reference" "SW2"
-			(at 217.17 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
 			(at 217.17 110.4899 90)
 			(effects
 				(font
@@ -11324,8 +11315,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "SW_Push"
+			(at 217.17 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
-			(at 218.44 109.22 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,7 +11334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 109.22 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11343,7 +11343,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 213.36 109.22 0)
+			(at 213.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,7 +11435,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 115.57 0)
+		(at 213.36 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11444,7 +11444,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0cfa41a-4b05-43e0-927c-3066c6be4289")
 		(property "Reference" "#PWR030"
-			(at 213.36 121.92 0)
+			(at 213.36 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11453,7 +11453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 120.65 0)
+			(at 213.36 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11461,7 +11461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 115.57 0)
+			(at 213.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11470,7 +11470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 115.57 0)
+			(at 213.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11479,7 +11479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 115.57 0)
+			(at 213.36 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
