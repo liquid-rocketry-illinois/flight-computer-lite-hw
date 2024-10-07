@@ -1459,16 +1459,16 @@
 		(uuid "afb92b20-ab8e-4c77-8c25-6f2b6beaeb43")
 	)
 	(junction
-		(at 147.32 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3e9ac74-9896-4a48-9eca-91e7275653db")
-	)
-	(junction
 		(at 87.63 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4bbde04-9e87-4178-8cff-029476278c1e")
+	)
+	(junction
+		(at 214.63 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad4a54c-af70-44d9-95bf-1f9d4756da52")
 	)
 	(junction
 		(at 190.5 43.18)
@@ -1532,16 +1532,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 154.94 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c936937-974f-4d67-89db-73b4fe9a525d")
-	)
-	(wire
-		(pts
 			(xy 190.5 40.64) (xy 199.39 40.64)
 		)
 		(stroke
@@ -1592,6 +1582,26 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 109.22) (xy 214.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e180b4-e2af-4946-8753-c41768c0da86")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2159b937-e8f1-44ba-a45d-585a0b77d0e5")
+	)
+	(wire
+		(pts
 			(xy 205.74 45.72) (xy 205.74 40.64)
 		)
 		(stroke
@@ -1609,16 +1619,6 @@
 			(type default)
 		)
 		(uuid "2e3bc84d-d135-4d25-833a-55a7062bdd73")
-	)
-	(wire
-		(pts
-			(xy 147.32 123.19) (xy 147.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f493ea6-7d51-43a0-b880-9b9996e8eac3")
 	)
 	(wire
 		(pts
@@ -1649,6 +1649,16 @@
 			(type default)
 		)
 		(uuid "373469e5-265b-450b-8519-bfc995b4798f")
+	)
+	(wire
+		(pts
+			(xy 191.77 124.46) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dec0702-857a-4078-b9b1-68ca84e9ec2e")
 	)
 	(wire
 		(pts
@@ -1742,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 119.38) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ed1cd4-668d-40c1-bddc-dacaf524c43b")
+	)
+	(wire
+		(pts
 			(xy 184.15 40.64) (xy 190.5 40.64)
 		)
 		(stroke
@@ -1812,6 +1832,26 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 107.95) (xy 214.63 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686dfe6b-0bb2-4d6f-8e95-a6c34d8bc2cd")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a86e6d9-0415-4008-8d82-f6855d30d9db")
+	)
+	(wire
+		(pts
 			(xy 119.38 58.42) (xy 133.35 58.42)
 		)
 		(stroke
@@ -1872,13 +1912,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 147.32 115.57)
+			(xy 191.77 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ac651f3-253d-47cc-a710-890c6a4f4dbc")
+		(uuid "746cea28-3ba1-464f-8111-3d27b638a696")
 	)
 	(wire
 		(pts
@@ -1922,6 +1962,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 109.22) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d1d3b8-a8b3-4cf5-84a4-f09c9db2f9b6")
+	)
+	(wire
+		(pts
 			(xy 261.62 71.12) (xy 261.62 72.39)
 		)
 		(stroke
@@ -1929,16 +1979,6 @@
 			(type default)
 		)
 		(uuid "93e00ed7-6f9d-41e1-a595-65e8b504e6ec")
-	)
-	(wire
-		(pts
-			(xy 147.32 111.76) (xy 147.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab944b1-883d-4271-b249-60b61fa8362d")
 	)
 	(wire
 		(pts
@@ -1959,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "9d8123bc-79e5-462a-bc11-a0eb308279c6")
+	)
+	(wire
+		(pts
+			(xy 210.82 109.22) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d82477a-5ce2-4a9f-9225-8c61126694f4")
 	)
 	(wire
 		(pts
@@ -2052,16 +2102,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 154.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b023a11d-fcec-4f32-9eaf-48861fbb3e12")
-	)
-	(wire
-		(pts
 			(xy 64.77 64.77) (xy 64.77 62.23)
 		)
 		(stroke
@@ -2089,16 +2129,6 @@
 			(type default)
 		)
 		(uuid "b9e858a3-f63e-48f6-aac9-c63e78fa0932")
-	)
-	(wire
-		(pts
-			(xy 132.08 125.73) (xy 147.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbc6bf04-24ac-4954-90a9-35f14bf4ab40")
 	)
 	(wire
 		(pts
@@ -2152,16 +2182,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 154.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df35f73f-caa5-4d4a-b675-3e025f43af8a")
-	)
-	(wire
-		(pts
 			(xy 87.63 52.07) (xy 87.63 64.77)
 		)
 		(stroke
@@ -2200,16 +2220,6 @@
 		)
 		(uuid "f6d0aed8-219a-4ffd-9cd0-da79f1376414")
 	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 147.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7e95ee6-c790-429a-a4bd-acd33a0daf04")
-	)
 	(rectangle
 		(start 222.25 43.18)
 		(end 267.97 82.55)
@@ -2233,6 +2243,18 @@
 			(type none)
 		)
 		(uuid 21c8f23a-52a8-46ab-bca9-8e4ba467a886)
+	)
+	(rectangle
+		(start 172.72 97.79)
+		(end 229.87 132.08)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8de3161-b6a4-46b2-b91a-ff2bc58919f5)
 	)
 	(rectangle
 		(start 43.18 25.4)
@@ -2266,9 +2288,29 @@
 		)
 		(uuid "34c7bbfb-3cd1-4bd9-aa89-bd25c119f316")
 	)
+	(text "Bus speed 1MHz (Fast Mode+)\n"
+		(exclude_from_sim no)
+		(at 61.468 191.262 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "798a753f-d1a1-4674-94ec-de9f478eb77f")
+	)
+	(text "Bus pull-up resistors"
+		(exclude_from_sim no)
+		(at 201.676 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82ef5b3a-4928-4d53-a6e2-b0425678a197")
+	)
 	(text "Magnetometer\nI2C Addr: 0x1C"
 		(exclude_from_sim no)
-		(at 35.306 34.544 0)
+		(at 68.072 22.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,7 +2318,7 @@
 		)
 		(uuid "c4140337-e6fb-4932-b957-ed654cfe6f5d")
 	)
-	(label "I2C_1_SCA"
+	(label "I2C_1_SDA"
 		(at 223.52 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2287,18 +2329,7 @@
 		)
 		(uuid "0a311d51-6eeb-407b-b834-dd9fd93fdf6d")
 	)
-	(label "I2C_1_SCA"
-		(at 144.78 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "22d2e7cb-d4d9-448d-98fa-5060bd95fb7a")
-	)
-	(label "I2C_1_SCA"
+	(label "I2C_1_SDA"
 		(at 119.38 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2321,15 +2352,15 @@
 		(uuid "5e372f08-4734-4352-a318-8ba51d017a4a")
 	)
 	(label "I2C_1_SCL"
-		(at 144.78 125.73 180)
+		(at 191.77 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "80a21257-a45c-4329-9bc1-5b62bfdfbdf0")
+		(uuid "8245a8c4-5b6d-4e11-bef7-9da738d14404")
 	)
 	(label "I2C_1_SCL"
 		(at 223.52 59.69 0)
@@ -2342,7 +2373,7 @@
 		)
 		(uuid "8ba1c37f-cbe7-412c-bb3f-3711ec800cd8")
 	)
-	(label "I2C_1_SCA"
+	(label "I2C_1_SDA"
 		(at 83.82 29.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2364,29 +2395,154 @@
 		)
 		(uuid "ca121a21-6bd3-4c18-b5cc-09dba891259d")
 	)
-	(hierarchical_label "I2C_1_SDA"
-		(shape bidirectional)
-		(at 132.08 128.27 180)
+	(label "I2C_1_SDA"
+		(at 191.77 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "1dfaa6e7-942d-4f28-b819-a3dd2a06ccd2")
+		(uuid "f10b29b5-4064-4010-b57e-cc72beca5440")
 	)
-	(hierarchical_label "I2C_1_SCL"
-		(shape bidirectional)
-		(at 132.08 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1031cf6e-0486-405f-bc2b-04a8cd6c9b15")
+		(property "Reference" "R18"
+			(at 211.836 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify right)
 		)
-		(uuid "f3a61e0b-a3de-43bd-b16d-2b8a18cc637c")
+		(property "Value" "I2C"
+			(at 211.836 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.042 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c363ed-f0fa-4bfa-8d37-7a13dc65ca04")
+		)
+		(pin "2"
+			(uuid "64ec877a-026b-4705-b142-9735b98a9b7a")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 218.44 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18413ada-42ff-4e0a-90db-473ec10ed25a")
+		(property "Reference" "R21"
+			(at 219.456 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I2C"
+			(at 219.456 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 216.662 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 218.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac60673a-56b8-452e-ae95-5be113daa1b3")
+		)
+		(pin "2"
+			(uuid "e7d14bd9-b966-4ff4-9b6b-7b287eb41dc7")
+		)
+		(instances
+			(project "flight-computer-lite"
+				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2457,16 +2613,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 147.32 111.76 0)
+		(at 214.63 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3963f584-ff44-4ff9-b9bf-3dffc5ef07a2")
-		(property "Reference" "#PWR09"
-			(at 147.32 115.57 0)
+		(uuid "3a02a654-5dbd-4135-96b2-71e2155321c6")
+		(property "Reference" "#PWR037"
+			(at 214.63 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2631,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 147.32 106.68 0)
+			(at 214.63 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 111.76 0)
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 111.76 0)
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2657,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 111.76 0)
+			(at 214.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,12 +2666,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "61cde937-9d38-4ce2-8a66-d10096a1fc58")
+			(uuid "ade5d0d5-9b6b-44c5-93a9-b0338c315c30")
 		)
 		(instances
 			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
-					(reference "#PWR09")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2604,7 +2760,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 258.826 60.198 0)
 			(effects
 				(font
@@ -2649,75 +2805,6 @@
 			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 154.94 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d586ba0-7ea5-41cb-84b0-293d74f55862")
-		(property "Reference" "R8"
-			(at 155.956 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "I2C"
-			(at 155.956 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.162 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 154.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b329264b-e558-4908-8ce1-d9ee87b02e82")
-		)
-		(pin "2"
-			(uuid "db5e335a-1368-4d47-869b-c5962c9636f9")
-		)
-		(instances
-			(project "flight-computer-lite"
-				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2984,75 +3071,6 @@
 			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7349d857-b997-4050-9d3b-821f57c0ad7b")
-		(property "Reference" "R7"
-			(at 148.336 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "I2C"
-			(at 148.336 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.542 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f184728-6cdc-40ee-a0f0-ba31f98cb108")
-		)
-		(pin "2"
-			(uuid "1ac48107-8660-453e-aa67-9b28b8372c41")
-		)
-		(instances
-			(project "flight-computer-lite"
-				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/da8d9a6b-8135-4892-9fbb-e226d381d2be"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3442,7 +3460,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 80.01 66.294 90)
 			(effects
 				(font
@@ -3882,7 +3900,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 54.356 66.294 90)
 			(effects
 				(font
@@ -3949,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 196.596 47.498 0)
 			(effects
 				(font
