@@ -2483,7 +2483,7 @@
 	)
 	(text "Bus speed 400kHz (Fast Mode)\n"
 		(exclude_from_sim no)
-		(at 59.69 192.278 0)
+		(at 61.976 191.77 0)
 		(effects
 			(font
 				(size 3.81 3.81)
