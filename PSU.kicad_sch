@@ -2903,7 +2903,7 @@
 		)
 		(uuid "017ec6ea-c3e7-41c0-a60e-0708dbbe96f6")
 	)
-	(text "PMON_ALERT is\nopen-drain"
+	(text "PMON_ALERT is\nopen-drain\nI2C Addr. 0x48"
 		(exclude_from_sim no)
 		(at 264.668 66.802 0)
 		(effects

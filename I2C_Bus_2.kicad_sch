@@ -3285,7 +3285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "1k"
 			(at 86.106 120.65 0)
 			(effects
 				(font
@@ -3659,7 +3659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "1k"
 			(at 93.726 120.65 0)
 			(effects
 				(font
