@@ -9917,7 +9917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 255.27 54.6099 0)
 			(effects
 				(font
@@ -10857,7 +10857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "1u"
 			(at 222.25 31.7499 0)
 			(effects
 				(font
