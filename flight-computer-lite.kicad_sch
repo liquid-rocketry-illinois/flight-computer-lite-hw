@@ -5033,14 +5033,6 @@
 		(uuid "416ec517-e2c4-49f4-b4d1-8b6c571ca182")
 	)
 	(no_connect
-		(at 199.39 95.25)
-		(uuid "48afcf13-5ec2-4b06-815c-da284015ae1b")
-	)
-	(no_connect
-		(at 199.39 92.71)
-		(uuid "60119fb9-c4c9-429a-87f5-b607e82c71d2")
-	)
-	(no_connect
 		(at 52.07 107.95)
 		(uuid "652cc7a2-9a93-417a-9324-84380974e51c")
 	)
@@ -5069,12 +5061,20 @@
 		(uuid "c04b9eb5-702d-4120-86af-a2b8243590c4")
 	)
 	(no_connect
+		(at 199.39 105.41)
+		(uuid "c1b73cfb-783e-4f24-8449-fc242cdcce3b")
+	)
+	(no_connect
 		(at 199.39 85.09)
 		(uuid "c6528f60-300b-40d8-8ffa-2425e120a573")
 	)
 	(no_connect
 		(at 199.39 135.89)
 		(uuid "d2866cf7-126d-4755-90db-1d6780863a6a")
+	)
+	(no_connect
+		(at 199.39 102.87)
+		(uuid "d2d9ff85-b353-423f-8d43-8f86f177105c")
 	)
 	(no_connect
 		(at 199.39 100.33)
@@ -5131,6 +5131,16 @@
 			(type default)
 		)
 		(uuid "01c30880-5caf-4f16-b880-5d04cbe5b9bf")
+	)
+	(wire
+		(pts
+			(xy 199.39 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ef8242-8b30-439f-97e5-e30d5f11971b")
 	)
 	(wire
 		(pts
@@ -6014,16 +6024,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 105.41) (xy 210.82 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774a21e3-1e48-42cb-9eed-6eacf3ebd634")
-	)
-	(wire
-		(pts
 			(xy 205.74 67.31) (xy 205.74 74.93)
 		)
 		(stroke
@@ -6321,6 +6321,16 @@
 			(type default)
 		)
 		(uuid "9963248b-6113-4590-b8cd-fcc7cec0c4bb")
+	)
+	(wire
+		(pts
+			(xy 199.39 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b41072b-d033-45b8-a593-1ea20b5bd0dd")
 	)
 	(wire
 		(pts
@@ -6781,16 +6791,6 @@
 			(type default)
 		)
 		(uuid "d3b24436-587d-4402-ad8b-9a659f949ad0")
-	)
-	(wire
-		(pts
-			(xy 199.39 102.87) (xy 210.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c86f89-9284-4649-8f1e-508468a8aed0")
 	)
 	(wire
 		(pts
@@ -7545,7 +7545,7 @@
 		(uuid "bb56adb3-e513-4f4a-9efe-4f81cadb3cd6")
 	)
 	(label "USR_BTN"
-		(at 210.82 105.41 180)
+		(at 209.55 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7578,7 +7578,7 @@
 		(uuid "d766e8c1-71ab-4bff-a8a6-48f75c098d21")
 	)
 	(label "USR_LED"
-		(at 210.82 102.87 180)
+		(at 209.55 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
