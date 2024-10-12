@@ -1269,16 +1269,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 218.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dec0702-857a-4078-b9b1-68ca84e9ec2e")
-	)
-	(wire
-		(pts
 			(xy 190.5 72.39) (xy 190.5 68.58)
 		)
 		(stroke
@@ -1296,6 +1286,16 @@
 			(type default)
 		)
 		(uuid "405b9c19-a75e-413d-ae1b-4a436aabcda5")
+	)
+	(wire
+		(pts
+			(xy 189.23 124.46) (xy 218.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4525638f-cf48-423c-b959-a2a651c710b1")
 	)
 	(wire
 		(pts
@@ -1429,13 +1429,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 121.92) (xy 210.82 121.92)
+			(xy 189.23 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "746cea28-3ba1-464f-8111-3d27b638a696")
+		(uuid "71cc5687-6ec3-4e7f-aa55-905ddde0c9e3")
 	)
 	(wire
 		(pts
@@ -1748,6 +1748,30 @@
 			(justify left bottom)
 		)
 		(uuid "f10b29b5-4064-4010-b57e-cc72beca5440")
+	)
+	(hierarchical_label "I2C_1_SCL"
+		(shape bidirectional)
+		(at 189.23 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a5720b9-cec2-42a0-871a-15a603b01f1c")
+	)
+	(hierarchical_label "I2C_1_SDA"
+		(shape bidirectional)
+		(at 189.23 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a16f13bb-13fb-4bd5-a3cc-f90e82154e6d")
 	)
 	(symbol
 		(lib_id "Device:R")

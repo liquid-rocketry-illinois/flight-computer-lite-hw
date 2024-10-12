@@ -4865,12 +4865,6 @@
 		(uuid "179684b2-3224-450a-96fa-a2b3a844c1dd")
 	)
 	(junction
-		(at 205.74 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e72c13b-cfd8-48ab-af99-7c24b4e4047e")
-	)
-	(junction
 		(at 22.86 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4887,6 +4881,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "234f707c-3eaa-4e44-8636-794bbc69b240")
+	)
+	(junction
+		(at 205.74 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30471513-a71e-4bd3-b329-0ed8ab55cd75")
 	)
 	(junction
 		(at 259.08 58.42)
@@ -4917,12 +4917,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4586ac0b-e888-46e3-81a6-7cfa2315a540")
-	)
-	(junction
-		(at 203.2 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b058b2e-39e9-466c-a6cb-705d661bc26f")
 	)
 	(junction
 		(at 181.61 63.5)
@@ -4989,6 +4983,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcdcedd0-818e-437f-b268-ec795f26da60")
+	)
+	(junction
+		(at 203.2 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0dd5ad2-1fcf-486c-9ccf-1bed31d5c9ef")
 	)
 	(junction
 		(at 251.46 48.26)
@@ -6164,16 +6164,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 74.93) (xy 209.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8528bbb0-8d21-4712-b327-888f3cf45244")
-	)
-	(wire
-		(pts
 			(xy 259.08 57.15) (xy 259.08 58.42)
 		)
 		(stroke
@@ -6261,16 +6251,6 @@
 			(type default)
 		)
 		(uuid "92e8730d-bac8-4416-8b7d-9a9ab0181d30")
-	)
-	(wire
-		(pts
-			(xy 203.2 72.39) (xy 209.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9354a04e-4785-4646-99fe-39e2e35916fd")
 	)
 	(wire
 		(pts
@@ -6644,6 +6624,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f48037-28d4-429d-a1ad-8d57dde2c39b")
+	)
+	(wire
+		(pts
 			(xy 173.99 156.21) (xy 173.99 157.48)
 		)
 		(stroke
@@ -6951,6 +6941,16 @@
 			(type default)
 		)
 		(uuid "e8f47470-fa67-412a-8615-90b9b4b07225")
+	)
+	(wire
+		(pts
+			(xy 205.74 74.93) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaaf8788-3ce5-41ac-a43e-7433afe1a845")
 	)
 	(wire
 		(pts
@@ -13278,16 +13278,6 @@
 				(hide yes)
 			)
 		)
-		(pin "I2C_1_SCL" bidirectional
-			(at 209.55 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b6c5c758-5eb6-49ea-822f-4b1e2b5afbd3")
-		)
 		(pin "I2C_1_SDA" bidirectional
 			(at 209.55 72.39 180)
 			(effects
@@ -13296,7 +13286,17 @@
 				)
 				(justify left)
 			)
-			(uuid "bed6fabe-2148-490a-b615-7b5aa165d135")
+			(uuid "e7927ca7-ff2d-4702-b32f-72c18a1ba4c4")
+		)
+		(pin "I2C_1_SCL" bidirectional
+			(at 209.55 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3c148a9-d713-4a98-bf5f-afc393342c3b")
 		)
 		(instances
 			(project "flight-computer-lite"
