@@ -5065,10 +5065,6 @@
 		(uuid "afb1a9c2-f216-4439-b7c2-4e3b4d79eabd")
 	)
 	(no_connect
-		(at 199.39 110.49)
-		(uuid "b5db67bd-d0d3-4d73-a349-cd6bd8ec0f1a")
-	)
-	(no_connect
 		(at 33.02 52.07)
 		(uuid "c04b9eb5-702d-4120-86af-a2b8243590c4")
 	)
@@ -5077,8 +5073,16 @@
 		(uuid "c6528f60-300b-40d8-8ffa-2425e120a573")
 	)
 	(no_connect
+		(at 199.39 135.89)
+		(uuid "d2866cf7-126d-4755-90db-1d6780863a6a")
+	)
+	(no_connect
 		(at 199.39 100.33)
 		(uuid "dac01fee-8377-4695-a2ab-c0393266ba32")
+	)
+	(no_connect
+		(at 199.39 133.35)
+		(uuid "db2bd327-9452-4759-aa2d-33f2011b1938")
 	)
 	(no_connect
 		(at 199.39 80.01)
@@ -5087,10 +5091,6 @@
 	(no_connect
 		(at 199.39 90.17)
 		(uuid "e9a8c9ae-af5d-4e59-bedc-ca13d72215e9")
-	)
-	(no_connect
-		(at 199.39 107.95)
-		(uuid "f1634c34-239a-46e9-bae0-85052560efc0")
 	)
 	(wire
 		(pts
@@ -5374,6 +5374,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 110.49) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b50de8-7a98-4a5a-86ab-055a603d6637")
+	)
+	(wire
+		(pts
 			(xy 199.39 118.11) (xy 213.36 118.11)
 		)
 		(stroke
@@ -5641,6 +5651,16 @@
 			(type default)
 		)
 		(uuid "3a4da41c-4c5d-424b-8398-bf604270460b")
+	)
+	(wire
+		(pts
+			(xy 199.39 107.95) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e076526-c6b9-45b4-a71b-2b7ec1777fcb")
 	)
 	(wire
 		(pts
@@ -6334,16 +6354,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 135.89) (xy 201.93 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d26486b-a3c6-47b0-98e1-29e01fbc8203")
-	)
-	(wire
-		(pts
 			(xy 135.89 31.75) (xy 135.89 35.56)
 		)
 		(stroke
@@ -6861,16 +6871,6 @@
 			(type default)
 		)
 		(uuid "da47f4b7-d268-4481-bb1f-cce08080615a")
-	)
-	(wire
-		(pts
-			(xy 199.39 133.35) (xy 201.93 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db21cc9c-4bff-43ad-8042-ec707310bf3e")
 	)
 	(wire
 		(pts
@@ -13133,7 +13133,7 @@
 		)
 	)
 	(sheet
-		(at 201.93 132.08)
+		(at 201.93 106.68)
 		(size 12.7 5.08)
 		(stroke
 			(width 0.1524)
@@ -13144,7 +13144,7 @@
 		)
 		(uuid "b008d132-627e-4909-9b55-dae551d9f285")
 		(property "Sheetname" "I2C Bus 2"
-			(at 204.978 138.938 0)
+			(at 204.978 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,7 +13153,7 @@
 			)
 		)
 		(property "Sheetfile" "I2C_Bus_2.kicad_sch"
-			(at 201.93 136.4746 0)
+			(at 201.93 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13163,7 @@
 			)
 		)
 		(pin "I2C_2_SCL" bidirectional
-			(at 201.93 135.89 180)
+			(at 201.93 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +13173,7 @@
 			(uuid "a88d7107-35bf-46a2-b20c-edd64f52a13c")
 		)
 		(pin "I2C_2_SDA" bidirectional
-			(at 201.93 133.35 180)
+			(at 201.93 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
