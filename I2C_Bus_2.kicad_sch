@@ -4078,7 +4078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_GPS:ublox_MAX"
+		(property "Footprint" "LRI_partlib:ublox_MAX"
 			(at 132.08 71.12 0)
 			(effects
 				(font
