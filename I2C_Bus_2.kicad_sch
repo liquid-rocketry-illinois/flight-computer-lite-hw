@@ -3954,7 +3954,7 @@
 			(uuid "7a8de34f-2ded-48b2-ab14-27e5739565d1")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/b008d132-627e-4909-9b55-dae551d9f285"
 					(reference "AE1")
 					(unit 1)
@@ -4160,7 +4160,7 @@
 			(uuid "75df5d03-09ef-41ea-a8f7-0575712d3cf1")
 		)
 		(instances
-			(project ""
+			(project "flight-computer-lite"
 				(path "/68fb1519-f2e0-49f5-8b7c-4cc7366600ef/b008d132-627e-4909-9b55-dae551d9f285"
 					(reference "U12")
 					(unit 1)
