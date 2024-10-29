@@ -1,0 +1,29 @@
+M48
+; DRILL file {KiCad 8.0.0} date 2024-10-29T00:17:40-0500
+; FORMAT={-:-/ absolute / inch / decimal}
+; #@! TF.CreationDate,2024-10-29T00:17:40-05:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,8.0.0
+; #@! TF.FileFunction,NonPlated,1,2,NPTH
+FMAT,2
+INCH
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T1C0.0256
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T2C0.1693
+; Define tool for 25 mil slot
+T3C0.025
+%
+G90
+G05
+T1
+X2.2919Y-0.7425
+X2.2919Y-0.9701
+T2
+X0.2362Y-0.2362
+X0.2362Y-2.3228
+X2.3228Y-0.2362
+X2.3228Y-2.3228
+T3
+X0.4472Y-0.8783G85X0.4472Y-1.0783
+X0.6224Y-0.8783G85X0.6224Y-1.0783
+M30
