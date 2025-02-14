@@ -9,7 +9,7 @@ Ingredients:
     * STmicroelectronics LIS3MDL 3-axis magnetometer
     * TE Connectivity MS5611 barometer/altimeter
     * Sensirion SHT40 for ambient temperature and humidity
-    * u-blox SAM-M10Q GNSS receiver with integrated antenna
+    * u-blox MAX-M10S GNSS receiver with u.FL antenna
 * A push-push microSD card slot for vibration-resistant datalogging
 * A piezoelectric buzzer to provide audial status information before launch and after landing
 * a USB-C port for programming and serial communication with the RP2040
