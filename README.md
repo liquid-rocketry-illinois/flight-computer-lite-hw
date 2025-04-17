@@ -1,6 +1,11 @@
 # Flight Computer Lite "Digital Tripper"
 KiCad PCB repository for "Digital Tripper": a flight computer with no physical outputs designed for uncontrolled solid-fuel excursion flights (the first of which is planned for 2024-11), and a precursor for future flight computers that will incorporate actuation or active control or interact with other boards. The data it gathers will be used for verification of flight control and position estimation algorithms, flight vehicle design iteration, building up a strong avionics software backbone, and field-testing our electronic components and designs. Digital Tripper is a square 65mm on edge and fits transversely in a 4-inch-diameter model rocket.
 
+<p align="center">
+  <img src="digitaltripper-front.png" alt="Digital Tripper front render" width="45%" />
+  <img src="digitaltripper-back.png" alt="Digital Tripper back render" width="45%" />
+</p>
+
 Ingredients:
 * The "brain", a Raspberry Pi Silicon RP2040
 * Various digital sensors
